@@ -12,25 +12,29 @@ export function Hero() {
       </p>
 
       <div className="flex justify-center gap-4">
-        <Button className="bg-zinc-800/80 text-white hover:bg-zinc-700 rounded-full">
+        <Button className="bg-[#303030] text-white hover:bg-[#404040] rounded-xl px-6 py-7">
           <Image
-            src="/vercel.svg"
+            src="/playstore.svg"
             alt="Play Store"
             width={24}
             height={24}
             className="mr-2"
           />
-          Play Store
+          <div className="flex flex-col items-start">
+            <span className="text-xl font-medium">Play Store</span>
+          </div>
         </Button>
-        <Button className="bg-zinc-800/80 text-white hover:bg-zinc-700 rounded-full">
+        <Button className="bg-[#F5F5F7] text-black hover:bg-[#E5E5E7] rounded-xl px-6 py-7">
           <Image
-            src="/vercel.svg"
+            src="/apple.svg"
             alt="App Store"
             width={24}
             height={24}
             className="mr-2"
           />
-          App Store
+          <div className="flex flex-col items-start">
+            <span className="text-xl font-medium">App Store</span>
+          </div>
         </Button>
       </div>
     </section>
