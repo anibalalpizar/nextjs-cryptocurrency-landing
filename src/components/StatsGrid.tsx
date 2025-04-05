@@ -8,6 +8,7 @@ export function StatsGrid() {
       iconAlt: "Calories",
       unit: "Kcal",
       label: "Calories burned",
+      isCalories: true,
     },
     {
       value: "+1,600,000.35",
@@ -15,6 +16,7 @@ export function StatsGrid() {
       iconAlt: "Distance",
       unit: "Meter(M)",
       label: "Distance covered",
+      isDistance: true,
     },
     {
       value: "+16,256.20",
@@ -22,6 +24,7 @@ export function StatsGrid() {
       iconAlt: "Weight",
       unit: "Kilogram(KG)",
       label: "Given kilogram",
+      isKilograms: true,
     },
     {
       value: "+12,600.10",
@@ -29,6 +32,7 @@ export function StatsGrid() {
       iconAlt: "Users",
       unit: "Users",
       label: "Total users",
+      isUsers: true,
     },
   ]
 
