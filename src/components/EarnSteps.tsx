@@ -22,7 +22,7 @@ export function EarnSteps() {
         Earn while walking
       </h2>
 
-      <div className="flex items-center justify-center gap-4 max-w-3xl mx-auto">
+      <div className="flex items-center justify-center gap-0 max-w-5xl mx-auto">
         {steps.map((step, index) => (
           <div key={step.text} className="flex items-center">
             <div className="relative">
@@ -42,7 +42,14 @@ export function EarnSteps() {
               <p className="text-white mt-4 font-medium">{step.text}</p>
             </div>
             {index < steps.length - 1 && (
-              <div className="flex-1 h-[2px] bg-[#2A2164] mx-4" />
+              <div
+                className="w-64 h-[2px] mx-0"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(to right, #FFFFFF 50%, transparent 50%)",
+                  backgroundSize: "16px 2px",
+                }}
+              />
             )}
           </div>
         ))}
