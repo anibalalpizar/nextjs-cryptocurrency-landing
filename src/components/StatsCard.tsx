@@ -24,9 +24,9 @@ export function StatsCard({
   isUsers = false,
 }: StatsCardProps) {
   return (
-    <div className="bg-[#1A1A1A]/90 backdrop-blur-md rounded-[32px] p-8 relative overflow-hidden min-h-[240px]">
+    <div className="bg-black/30 backdrop-blur-xl rounded-[32px] p-8 relative overflow-hidden min-h-[240px] border border-white/10">
       <div className="absolute top-6 right-6">
-        <div className="w-12 h-12 bg-[#2A2A2A]/60 rounded-full flex items-center justify-center">
+        <div className="w-12 h-12 bg-white/5 backdrop-blur-sm rounded-full flex items-center justify-center">
           <Image
             src={icon}
             alt={iconAlt}
