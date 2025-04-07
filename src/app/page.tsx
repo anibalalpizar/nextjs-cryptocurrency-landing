@@ -2,6 +2,8 @@ import { Header } from "@/components/Header"
 import { Hero } from "@/components/Hero"
 import { StatsGrid } from "@/components/StatsGrid"
 import { EarnSteps } from "@/components/EarnSteps"
+import { DownloadCard } from "@/components/DownloadCard"
+import { WalkCard } from "@/components/WalkCard"
 import { YellowGradient } from "@/components/ui/YellowGradient"
 import { PurpleGradient } from "@/components/ui/PurpleGradient"
 
@@ -19,6 +21,8 @@ export default function Home() {
           <PurpleGradient />
           <EarnSteps />
         </div>
+        <DownloadCard />
+        <WalkCard />
       </main>
     </div>
   )
