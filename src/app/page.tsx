@@ -5,14 +5,11 @@ import { EarnSteps } from "@/components/EarnSteps"
 import { DownloadCard } from "@/components/DownloadCard"
 import { WalkCard } from "@/components/WalkCard"
 import { RarityLevel } from "@/components/RarityLevel"
-import { YellowGradient } from "@/components/ui/YellowGradient"
 import { PurpleGradient } from "@/components/ui/PurpleGradient"
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-black relative overflow-hidden">
-
-      <YellowGradient />
       <Header />
 
       <main className="relative z-10 container mx-auto px-4 pt-24 pb-16">
@@ -22,9 +19,9 @@ export default function Home() {
           <PurpleGradient />
           <EarnSteps />
         </div>
+        <RarityLevel />
         <DownloadCard />
         <WalkCard />
-        <RarityLevel />
       </main>
     </div>
   )
