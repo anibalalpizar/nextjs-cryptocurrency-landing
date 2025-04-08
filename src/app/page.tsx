@@ -19,9 +19,9 @@ export default function Home() {
           <PurpleGradient />
           <EarnSteps />
         </div>
-        <RarityLevel />
         <DownloadCard />
         <WalkCard />
+        <RarityLevel />
       </main>
     </div>
   )
