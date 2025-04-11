@@ -19,7 +19,7 @@ export function TechnologyIcons() {
   ]
 
   const iconContainerClass =
-    "w-[84px] h-[84px] bg-[#0D0D0D]/50 backdrop-blur-sm rounded-2xl flex items-center justify-center border border-white/10 hover:border-white/20 transition-colors"
+    "w-20 h-20 bg-[#0D0D0D]/50 backdrop-blur-sm rounded-2xl flex items-center justify-center border border-white/10 hover:border-white/20 transition-colors"
 
   return (
     <section className="relative mt-32 mb-32 px-4">
@@ -38,29 +38,29 @@ export function TechnologyIcons() {
           Built with cutting-edge technologies for optimal performance
         </p>
 
-        <div className="flex flex-col gap-8 items-center max-w-4xl mx-auto">
-          <div className="grid grid-cols-6 gap-8 w-full">
+        <div className="flex flex-col gap-4 items-center">
+          <div className="flex gap-4 justify-center flex-wrap">
             {firstRowIcons.map((icon) => (
               <div key={icon.id} className={iconContainerClass}>
                 <Image
                   src={icon.src}
                   alt={icon.alt}
-                  width={36}
-                  height={36}
+                  width={32}
+                  height={32}
                   className="object-contain"
                 />
               </div>
             ))}
           </div>
 
-          <div className="flex gap-8 justify-center -ml-[42px]">
+          <div className="flex gap-4 justify-center flex-wrap">
             {secondRowIcons.map((icon) => (
               <div key={icon.id} className={iconContainerClass}>
                 <Image
                   src={icon.src}
                   alt={icon.alt}
-                  width={36}
-                  height={36}
+                  width={32}
+                  height={32}
                   className="object-contain"
                 />
               </div>
