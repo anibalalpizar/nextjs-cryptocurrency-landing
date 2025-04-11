@@ -6,6 +6,7 @@ import { DownloadCard } from "@/components/DownloadCard"
 import { WalkCard } from "@/components/WalkCard"
 import { RarityLevel } from "@/components/RarityLevel"
 import { TechnologyIcons } from "@/components/TechnologyIcons"
+import { TeamSection } from "@/components/TeamSection"
 import { PurpleGradient } from "@/components/ui/PurpleGradient"
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
         <WalkCard />
         <RarityLevel />
         <TechnologyIcons />
+        <TeamSection />
       </main>
     </div>
   )
