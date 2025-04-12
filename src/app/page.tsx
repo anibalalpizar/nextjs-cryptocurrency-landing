@@ -8,6 +8,7 @@ import { RarityLevel } from "@/components/RarityLevel"
 import { TechnologyIcons } from "@/components/TechnologyIcons"
 import { TeamSection } from "@/components/TeamSection"
 import { PurpleGradient } from "@/components/ui/PurpleGradient"
+import { FAQ } from "@/components/FAQ"
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <RarityLevel />
         <TechnologyIcons />
         <TeamSection />
+        <FAQ />
       </main>
     </div>
   )
