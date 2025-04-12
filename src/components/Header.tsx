@@ -14,14 +14,14 @@ const NavLink = ({
 
 export function Header() {
   return (
-    <div className="relative z-10 w-full px-4 py-6">
-      <nav className="bg-zinc-900/50 backdrop-blur-sm rounded-full px-8 py-4 flex items-center max-w-6xl mx-auto">
+    <div className="relative z-10 w-full px-4 py-3">
+      <nav className="bg-black/70 backdrop-blur-sm rounded-full px-8 py-3 flex items-center max-w-6xl mx-auto">
         <div className="flex-1 flex justify-start">
           <Image
             src="/logo.svg"
             alt="Logo"
-            width={36}
-            height={50}
+            width={30}
+            height={40}
             className="brightness-0 invert"
             priority
           />
@@ -34,7 +34,7 @@ export function Header() {
         </div>
 
         <div className="flex-1 flex justify-end">
-          <button className="bg-[#AFAFAF] text-black hover:bg-[#9F9F9F] rounded-full px-6">
+          <button className="bg-[#AFAFAF] text-black hover:bg-[#9F9F9F] rounded-full px-6 py-2 text-sm">
             Launch App
           </button>
         </div>
