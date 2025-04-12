@@ -20,30 +20,27 @@ export function Hero() {
           earn. Each step matters.
         </p>
 
-        <div className="flex justify-center gap-4">
-          <button className="bg-[#303030] text-white hover:bg-[#404040] rounded-xl px-6 py-7">
+        <div className="flex justify-center gap-6">
+          <button className="bg-[#303030]/80 text-white hover:bg-[#404040] rounded-xl px-8 py-3 flex items-center">
             <Image
               src="/playstore.svg"
               alt="Play Store"
               width={24}
               height={24}
-              className="mr-2"
+              className="mr-3"
             />
-            <div className="flex flex-col items-start">
-              <span className="text-xl font-medium">Play Store</span>
-            </div>
+            <span className="text-base font-medium">Play Store</span>
           </button>
-          <button className="bg-[#F5F5F7] text-black hover:bg-[#E5E5E7] rounded-xl px-6 py-7">
+
+          <button className="bg-[#F5F5F7] text-black hover:bg-[#E5E5E7] rounded-xl px-8 py-3 flex items-center">
             <Image
               src="/apple.svg"
               alt="App Store"
-              width={24}
-              height={24}
-              className="mr-2"
+              width={20}
+              height={20}
+              className="mr-3"
             />
-            <div className="flex flex-col items-start">
-              <span className="text-xl font-medium">App Store</span>
-            </div>
+            <span className="text-base font-medium">App Store</span>
           </button>
         </div>
       </div>
