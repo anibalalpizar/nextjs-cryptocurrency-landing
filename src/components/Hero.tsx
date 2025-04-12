@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button"
 import Image from "next/image"
 
 export function Hero() {
@@ -22,7 +21,7 @@ export function Hero() {
         </p>
 
         <div className="flex justify-center gap-4">
-          <Button className="bg-[#303030] text-white hover:bg-[#404040] rounded-xl px-6 py-7">
+          <button className="bg-[#303030] text-white hover:bg-[#404040] rounded-xl px-6 py-7">
             <Image
               src="/playstore.svg"
               alt="Play Store"
@@ -33,8 +32,8 @@ export function Hero() {
             <div className="flex flex-col items-start">
               <span className="text-xl font-medium">Play Store</span>
             </div>
-          </Button>
-          <Button className="bg-[#F5F5F7] text-black hover:bg-[#E5E5E7] rounded-xl px-6 py-7">
+          </button>
+          <button className="bg-[#F5F5F7] text-black hover:bg-[#E5E5E7] rounded-xl px-6 py-7">
             <Image
               src="/apple.svg"
               alt="App Store"
@@ -45,7 +44,7 @@ export function Hero() {
             <div className="flex flex-col items-start">
               <span className="text-xl font-medium">App Store</span>
             </div>
-          </Button>
+          </button>
         </div>
       </div>
     </section>
