@@ -31,7 +31,7 @@ export function TeamSection() {
         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px]"
         style={{
           background:
-            "radial-gradient(circle at center, rgba(99, 102, 241, 0.15) 0%, rgba(99, 102, 241, 0.1) 25%, rgba(99, 102, 241, 0.05) 40%, transparent 60%)",
+            "radial-gradient(circle at center, rgba(185, 28, 28, 0.25) 0%, rgba(120, 10, 10, 0.15) 25%, rgba(80, 5, 5, 0.1) 40%, transparent 60%)",
           filter: "blur(60px)",
         }}
       />
