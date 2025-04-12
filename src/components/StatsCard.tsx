@@ -24,20 +24,20 @@ export function StatsCard({
   isUsers = false,
 }: StatsCardProps) {
   return (
-    <div className="bg-black/30 backdrop-blur-xl rounded-[32px] p-8 relative overflow-hidden min-h-[240px] border border-white/10">
+    <div className="bg-[#0A0A0A] backdrop-blur-xl rounded-[20px] p-5 relative overflow-visible min-h-[160px] border border-[#222222]">
       <div className="absolute top-6 right-6">
-        <div className="w-12 h-12 bg-white/5 backdrop-blur-sm rounded-full flex items-center justify-center">
+        <div className="w-12 h-12 bg-[#1E1E1E] rounded-full flex items-center justify-center">
           <Image
             src={icon}
             alt={iconAlt}
             width={24}
             height={24}
-            className="opacity-60"
+            className="opacity-80"
           />
         </div>
       </div>
 
-      <div className="flex flex-col h-full justify-end space-y-2">
+      <div className="flex flex-col h-full justify-end space-y-2 pt-8">
         <div
           className="text-4xl font-mono font-medium tracking-wider"
           style={
@@ -80,8 +80,8 @@ export function StatsCard({
         >
           {value}
         </div>
-        <div className="text-[#8f8d88] text-base font-bold">{unit}</div>
-        <div className="text-white text-2xl font-medium mt-4">{label}</div>
+        <div className="text-[#6B6B6B] text-sm font-medium">{unit}</div>
+        <div className="text-white text-xl font-medium mt-2">{label}</div>
       </div>
     </div>
   )
