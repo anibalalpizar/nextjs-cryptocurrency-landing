@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button"
 import Image from "next/image"
 
 const NavLink = ({
@@ -35,12 +34,9 @@ export function Header() {
         </div>
 
         <div className="flex-1 flex justify-end">
-          <Button
-            variant="secondary"
-            className="bg-[#AFAFAF] text-black hover:bg-[#9F9F9F] rounded-full px-6"
-          >
+          <button className="bg-[#AFAFAF] text-black hover:bg-[#9F9F9F] rounded-full px-6">
             Launch App
-          </Button>
+          </button>
         </div>
       </nav>
     </div>
