@@ -14,20 +14,21 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-black relative overflow-hidden">
       <Header />
-
       <main className="relative z-10 container mx-auto px-4 pt-24 pb-16">
-        <Hero />
-        <StatsGrid />
-        <div className="relative">
-          <PurpleGradient />
-          <EarnSteps />
-        </div>
-        <DownloadCard />
-        <WalkCard />
-        <RarityLevel />
-        <TechnologyIcons />
-        <TeamSection />
-        <FAQ />
+        <article>
+          <Hero />
+          <StatsGrid />
+          <div className="relative">
+            <PurpleGradient />
+            <EarnSteps />
+          </div>
+          <DownloadCard />
+          <WalkCard />
+          <RarityLevel />
+          <TechnologyIcons />
+          <TeamSection />
+          <FAQ />
+        </article>
       </main>
     </div>
   )
