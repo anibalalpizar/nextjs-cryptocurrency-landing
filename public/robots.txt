@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://nextjs-cryptocurrency-landing.vercel.app/sitemap.xml
+Host: https://nextjs-cryptocurrency-landing.vercel.app
